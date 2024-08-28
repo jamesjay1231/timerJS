@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1 class="sr-only">위니브 타이머</h1>
+        <img src="./src/weniv-logo.jpg" alt="위니브 로고" />
+      </header>
+      <main>
+        <div class="main-title-container">
+          <h2 class="main-title">TIMER</h2>
+        </div>
+        <div class="main-content-container">
+          <div class="main-hour">
+            <span> HRS </span>
+            <input class="display hour" value="00" />
+          </div>
+          <div class="main-minute">
+            <span> MIN </span>
+            <input class="display minute" value="00" />
+          </div>
+          <div class="main-second">
+            <span> SEC </span>
+            <input class="display second" value="00" />
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="start-button">START</button>
+          <button class="reset-button">RESET</button>
+        </div>
+      </main>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
